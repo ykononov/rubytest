@@ -18,7 +18,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '3.5.2'
-  gem 'guard-rspec', '4.7.3'
+  # gem 'guard-rspec', '4.7.3'
 end
 
 group :development do
@@ -35,9 +35,9 @@ end
 group :test do
   gem 'selenium-webdriver', '3.0.5'
   gem 'capybara', '2.12.0'
-  gem 'rb-notifu', '0.0.4'
-  gem 'win32console', '1.3.2'
-  gem 'wdm', '0.1.1'
+  # gem 'rb-notifu', '0.0.4'
+  # gem 'win32console', '1.3.2'
+  # gem 'wdm', '0.1.1'
 end
 
 group :doc do
