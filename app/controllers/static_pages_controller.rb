@@ -1,14 +1,15 @@
 class StaticPagesController < ApplicationController
+
   def home
   end
 
   def help
   end
   
-  def about
-	$about_test_var = "about test text"
+  def about	
   end
   
   def contact
   end
+
 end

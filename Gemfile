@@ -29,6 +29,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development do  
   gem 'hirb', '0.7.3'
+  # https://github.com/cldwalker/hirb/tree/master#readme
   gem 'hirb-unicode', '0.0.5'
 end
 
